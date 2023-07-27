@@ -163,12 +163,12 @@ function AIPlay(playerInput) {
 function pickRandomMove() {
   const ai = Math.random();
   console.log(ai);
-  let choice = new Rock("Rock");
+  let choice = new Rock("rock");
   
   if (ai > (2/3)) {
-    choice = new Paper("Paper");
+    choice = new Paper("paper");
   } else if (ai > (1/3)) {
-    choice = new Scissors("Scissors");
+    choice = new Scissors("scissors");
   }
   return choice;
 }
