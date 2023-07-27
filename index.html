@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      rock paper scissors tutorial website
+    </title>
+
+    <link rel = stylesheet href = "css/12-rock-paper-scissors.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <p class="p-title">Rock Paper Scissors</p>
+      <div class="move-buttons-container">
+        <button class="move-button js-rock-button">
+          <img src="images/rock-emoji.png" class="move-icon">
+        </button>
+  
+        <button class="move-button js-paper-button">
+          <img src="images/paper-emoji.png" class="move-icon">
+        </button>
+  
+        <button class="move-button js-scissors-button">
+          <img src="images/scissors-emoji.png" class="move-icon">
+        </button>
+      </div>
+      <p class="js-Result-Text result"></p>
+      <p class="js-Moves-Text result">You <img src="images/rock-emoji.png" class="move-icon"> <img src="images/rock-emoji.png" class="move-icon"> AI</p>
+      <p class="js-Summary-Text result"></p>
+      <button class="reset-button">Reset Score</button>
+      <button class="autoplay-button">Autoplay</button>
+    </div>
+    <script src="src/12-rock-paper-scissors.js"></script>
+  </body>
+</html>
